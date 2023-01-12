@@ -46,9 +46,9 @@ public class Triangle extends Shape {
     @Override
     public String toString() {
         return "Triangle{" +
-                ", Color: " + getColor() +
+                "Color: " + getColor() +
                 ", Area=" +getArea() +
-                ", Perimater=" +getPerimeter() +
+                ", Perimeter=" +getPerimeter() +
                 '}';
     }
 }
